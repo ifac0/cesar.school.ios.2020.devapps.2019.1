@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		517624A8AB5A672907AE7C67 /* Pods_Carangas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 286F2CCB12253718EB3638FC /* Pods_Carangas.framework */; };
+		571447E22237202F0077DAE9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571447E12237202F0077DAE9 /* Car.swift */; };
+		571447E7223720AF0077DAE9 /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571447E6223720AF0077DAE9 /* REST.swift */; };
+		57E2C2AF224AD3CC007E2756 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2C2AE224AD3CC007E2756 /* AboutViewController.swift */; };
+		57E2C2B5224ADEA2007E2756 /* RestAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E2C2B4224ADEA2007E2756 /* RestAlamofire.swift */; };
 		A1B18D051F9C1BDD00313110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B18D041F9C1BDD00313110 /* AppDelegate.swift */; };
 		A1B18D0A1F9C1BDD00313110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B18D081F9C1BDD00313110 /* Main.storyboard */; };
 		A1B18D0C1F9C1BDD00313110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B18D0B1F9C1BDD00313110 /* Assets.xcassets */; };
@@ -14,13 +19,16 @@
 		A1B18D171F9C1D7E00313110 /* CarsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B18D161F9C1D7E00313110 /* CarsTableViewController.swift */; };
 		A1B18D191F9C1DBA00313110 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B18D181F9C1DBA00313110 /* AddEditViewController.swift */; };
 		A1B18D1B1F9C1DCF00313110 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B18D1A1F9C1DCF00313110 /* CarViewController.swift */; };
-		EDF5FCDB2481CB4E00599C9E /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5FCDA2481CB4E00599C9E /* Car.swift */; };
-		EDF5FCE42481CD7200599C9E /* REST.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5FCE32481CD7200599C9E /* REST.swift */; };
-		EDF5FCE62482895900599C9E /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5FCE52482895900599C9E /* Brand.swift */; };
-		EDF5FCE924829D4500599C9E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF5FCE824829D4400599C9E /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		286F2CCB12253718EB3638FC /* Pods_Carangas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carangas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32758BFCFD4193FF0E876BBD /* Pods-Carangas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carangas.release.xcconfig"; path = "Target Support Files/Pods-Carangas/Pods-Carangas.release.xcconfig"; sourceTree = "<group>"; };
+		571447E12237202F0077DAE9 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		571447E6223720AF0077DAE9 /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
+		57E2C2AE224AD3CC007E2756 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		57E2C2B4224ADEA2007E2756 /* RestAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAlamofire.swift; sourceTree = "<group>"; };
+		6C1B0481E83DFA8F2E37BCE1 /* Pods-Carangas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carangas.debug.xcconfig"; path = "Target Support Files/Pods-Carangas/Pods-Carangas.debug.xcconfig"; sourceTree = "<group>"; };
 		A1B18D011F9C1BDD00313110 /* Carangas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carangas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B18D041F9C1BDD00313110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B18D091F9C1BDD00313110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,10 +38,6 @@
 		A1B18D161F9C1D7E00313110 /* CarsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsTableViewController.swift; sourceTree = "<group>"; };
 		A1B18D181F9C1DBA00313110 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
 		A1B18D1A1F9C1DCF00313110 /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
-		EDF5FCDA2481CB4E00599C9E /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		EDF5FCE32481CD7200599C9E /* REST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST.swift; sourceTree = "<group>"; };
-		EDF5FCE52482895900599C9E /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
-		EDF5FCE824829D4400599C9E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,19 +45,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDF5FCE924829D4500599C9E /* WebKit.framework in Frameworks */,
+				517624A8AB5A672907AE7C67 /* Pods_Carangas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		486999324FA95D14FF254A21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C1B0481E83DFA8F2E37BCE1 /* Pods-Carangas.debug.xcconfig */,
+				32758BFCFD4193FF0E876BBD /* Pods-Carangas.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		571447E0223720220077DAE9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				571447E12237202F0077DAE9 /* Car.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		571447E3223720580077DAE9 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A1B18D161F9C1D7E00313110 /* CarsTableViewController.swift */,
+				A1B18D181F9C1DBA00313110 /* AddEditViewController.swift */,
+				A1B18D1A1F9C1DCF00313110 /* CarViewController.swift */,
+				57E2C2AE224AD3CC007E2756 /* AboutViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		571447E42237206D0077DAE9 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A1B18D081F9C1BDD00313110 /* Main.storyboard */,
+				A1B18D0D1F9C1BDD00313110 /* LaunchScreen.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		571447E5223720A00077DAE9 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				571447E6223720AF0077DAE9 /* REST.swift */,
+				57E2C2B4224ADEA2007E2756 /* RestAlamofire.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 		A1B18CF81F9C1BDD00313110 = {
 			isa = PBXGroup;
 			children = (
 				A1B18D031F9C1BDD00313110 /* Carangas */,
 				A1B18D021F9C1BDD00313110 /* Products */,
-				EDF5FCE724829D4400599C9E /* Frameworks */,
+				486999324FA95D14FF254A21 /* Pods */,
+				AB7D6844D10A4BB4C875E88E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,49 +119,21 @@
 		A1B18D031F9C1BDD00313110 /* Carangas */ = {
 			isa = PBXGroup;
 			children = (
+				571447E5223720A00077DAE9 /* network */,
 				A1B18D041F9C1BDD00313110 /* AppDelegate.swift */,
-				EDF5FCDD2481CC6800599C9E /* Models */,
-				EDF5FCE22481CCEE00599C9E /* Views */,
-				EDF5FCE02481CC8F00599C9E /* Controllers */,
+				571447E0223720220077DAE9 /* models */,
+				571447E3223720580077DAE9 /* controllers */,
+				571447E42237206D0077DAE9 /* views */,
 				A1B18D0B1F9C1BDD00313110 /* Assets.xcassets */,
 				A1B18D101F9C1BDD00313110 /* Info.plist */,
 			);
 			path = Carangas;
 			sourceTree = "<group>";
 		};
-		EDF5FCDD2481CC6800599C9E /* Models */ = {
+		AB7D6844D10A4BB4C875E88E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EDF5FCDA2481CB4E00599C9E /* Car.swift */,
-				EDF5FCE52482895900599C9E /* Brand.swift */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		EDF5FCE02481CC8F00599C9E /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				A1B18D161F9C1D7E00313110 /* CarsTableViewController.swift */,
-				A1B18D181F9C1DBA00313110 /* AddEditViewController.swift */,
-				A1B18D1A1F9C1DCF00313110 /* CarViewController.swift */,
-				EDF5FCE32481CD7200599C9E /* REST.swift */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		EDF5FCE22481CCEE00599C9E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				A1B18D081F9C1BDD00313110 /* Main.storyboard */,
-				A1B18D0D1F9C1BDD00313110 /* LaunchScreen.storyboard */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		EDF5FCE724829D4400599C9E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EDF5FCE824829D4400599C9E /* WebKit.framework */,
+				286F2CCB12253718EB3638FC /* Pods_Carangas.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1B18D131F9C1BDD00313110 /* Build configuration list for PBXNativeTarget "Carangas" */;
 			buildPhases = (
+				06661FADBC79E53D6E78D819 /* [CP] Check Pods Manifest.lock */,
 				A1B18CFD1F9C1BDD00313110 /* Sources */,
 				A1B18CFE1F9C1BDD00313110 /* Frameworks */,
 				A1B18CFF1F9C1BDD00313110 /* Resources */,
+				94E2CD4CACB3525420BCCD60 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,17 +167,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "CESAR School";
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Eric Brito";
 				TargetAttributes = {
 					A1B18D001F9C1BDD00313110 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = A1B18CFC1F9C1BDD00313110 /* Build configuration list for PBXProject "Carangas" */;
-			compatibilityVersion = "Xcode 11.0";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -182,16 +208,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06661FADBC79E53D6E78D819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Carangas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94E2CD4CACB3525420BCCD60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Carangas/Pods-Carangas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Carangas/Pods-Carangas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A1B18CFD1F9C1BDD00313110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1B18D171F9C1D7E00313110 /* CarsTableViewController.swift in Sources */,
-				EDF5FCE42481CD7200599C9E /* REST.swift in Sources */,
+				571447E7223720AF0077DAE9 /* REST.swift in Sources */,
 				A1B18D051F9C1BDD00313110 /* AppDelegate.swift in Sources */,
-				EDF5FCDB2481CB4E00599C9E /* Car.swift in Sources */,
-				EDF5FCE62482895900599C9E /* Brand.swift in Sources */,
+				57E2C2AF224AD3CC007E2756 /* AboutViewController.swift in Sources */,
+				57E2C2B5224ADEA2007E2756 /* RestAlamofire.swift in Sources */,
+				571447E22237202F0077DAE9 /* Car.swift in Sources */,
 				A1B18D191F9C1DBA00313110 /* AddEditViewController.swift in Sources */,
 				A1B18D1B1F9C1DCF00313110 /* CarViewController.swift in Sources */,
 			);
@@ -233,6 +309,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -240,6 +317,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -290,6 +368,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -297,6 +376,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -321,44 +401,37 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		A1B18D141F9C1BDD00313110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1B0481E83DFA8F2E37BCE1 /* Pods-Carangas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Carangas/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = school.cesar.Carangas;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.Carangas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A1B18D151F9C1BDD00313110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32758BFCFD4193FF0E876BBD /* Pods-Carangas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Carangas/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = school.cesar.Carangas;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericbrito.Carangas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
